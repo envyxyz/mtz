@@ -1,4 +1,4 @@
-/* Updated 6 August 2020 */
+/* made by Envy#9335 */
 
 @import url(https://envykrunk.github.io/removal/removal.css);
 :root {
@@ -676,6 +676,17 @@ structions {
 	visibility: hidden!important;
 	opacity: 0;
 	pointer-events: none;
+}
+
+#customizeButton {
+    height: 350px;
+    color: transparent!important;
+    background-color: transparent!Important;
+    box-shadow: none!important;
+    top: -7px;
+    left: 40px;
+    transform: none!Important;
+    font-size: 0
 }
 
 #chatHolder:not(#uiBase.onMenu #chatHolder) {
