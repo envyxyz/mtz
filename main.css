@@ -678,17 +678,3 @@ structions {
 	pointer-events: none;
 }
 
-#customizeButton {
-    height: 350px;
-    color: transparent!important;
-    background-color: transparent!Important;
-    box-shadow: none!important;
-    top: -7px;
-    left: 40px;
-    transform: none!Important;
-    font-size: 0
-}
-
-#chatHolder:not(#uiBase.onMenu #chatHolder) {
-	bottom: 0!important
-}
