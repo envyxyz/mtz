@@ -2,10 +2,9 @@
 
 @import url(https://envykrunk.github.io/removal/removal.css);
 :root {
-	--health-color: var(--accent-color);
 	--accent: #03fcf0;
 	--ammo-color: #fff;
-	--premium-color: #fbc02d;
+	--health-color: #03fcf0;
 	--premium-color: #fbc02d;
 	--verified-color: #40c4ff;
 	--verified-clan-color: #fbc02d;
@@ -148,18 +147,6 @@ b {
 .strmViews {
 	font-size: 17px;
 	color: #fbc02d;
-}
-
-#customizeButton {
-	display: inline-block;
-	width: 300px;
-	text-align: center;
-	padding: 45px;
-	font-size: 0px!important;
-	font-size: 0px;
-	pointer-events: all;
-	padding-bottom: 22px;
-	text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020, -3px -3px 0 #202020, 3px -3px 0 #202020, -3px 3px 0 #202020, 3px 3px 0 #202020!important;
 }
 
 #menuFPSDisplay {
@@ -668,13 +655,15 @@ structions {
 	font-size: 0!important
 }
 
-#policeButton {
+#policeButton{
 	position: absolute;
 	left: unset;
-	right: 290px;
-	bottom: calc(50% - 205px);
-	background-color: transparent;
-	z-index: 9999
+	right: 50px;
+	bottom: calc(50% - 255px);
+	background-color: #414A6D!important;
+	border: hidden;
+	z-index: 9999;
+	width: 300px!important
 }
 
 #ammoVal,
@@ -690,10 +679,6 @@ structions {
 	visibility: hidden!important;
 	opacity: 0;
 	pointer-events: none;
-}
-
-#policeButton {
-	display: block!Important;
 }
 
 #chatHolder:not(#uiBase.onMenu #chatHolder) {
