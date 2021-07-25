@@ -517,7 +517,6 @@ structions {
 
 #healthValue {
 	color: var(--health-color);
-	font-size: 52px;
 	font-weight: 700;
 	letter-spacing: 2px;
 	text-align: center;
@@ -555,7 +554,6 @@ structions {
 
 #ammoVal {
 	color: var(--ammo-color);
-	font-size: 52px;
 	font-weight: 700;
 	letter-spacing: 2px;
 	margin-left: 12px;
