@@ -656,7 +656,7 @@ structions {
 	position: absolute;
 	left: unset;
 	right: 50px;
-	bottom: calc(50% - 255px);
+	bottom: calc(50% - 250px);
 	background-color: #414A6D!important;
 	border: hidden;
 	z-index: 9999;
