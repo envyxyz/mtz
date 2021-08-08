@@ -38,7 +38,7 @@ a {
 	opacity: 0
 }
 
-#uiBase.onMenu #chatHolder #chatInputHolder:focus-within::before {
+#uiBase.onMenu #chatHolder #chatInputHolder:focus-within::after{
 	opacity: 0!important;
 	font-size: 0!important;
 }
