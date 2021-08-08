@@ -51,15 +51,15 @@ a {
 	background-color: transparent
 }
 
-#chatInput::placeholder {
+#uiBase.onMenu #chatHolder #chatInput::placeholder {
 	opacity: 0
 }
 
-#chatInputHolder:focus-within::before {
+#uiBase.onMenu #chatHolder #chatInputHolder:focus-within::before {
 	opacity: 0;
 }
 
-#chatInputHolder::before {
+#uiBase.onMenu #chatHolder #chatInputHolder::before {
 	content: 'css by Envy#9335';
 	position: absolute;
 	font-family: tahoma;
