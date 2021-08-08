@@ -11,7 +11,7 @@
 	--menu-bg-color-secondary: rgba(0, 0, 0, .5);
 	--ingame-bg-color: rgba(15, 15, 15, .2);
 	--text-transform: none;
-}
+}PRO
 
 * {
 	color: #fff;
@@ -82,7 +82,8 @@ a {
 .xpBarB,
 .chalXPBarC {
 	height: 100%;
-	background-image: linear-gradient(to right, var(--accent), var(--accent), 94%, white);
+	background-image: linear-gradient(to right, var(--accent), var(--accent), 94%, white)!important;
+	background-color: transparent!important;
 }
 
 .material-icons-outlined {
