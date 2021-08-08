@@ -996,6 +996,11 @@ input:checked+.slider{
     border-color: var(--accent)!important
 }
 
+#teamScores .material-icons,
+.tScoreM{
+    display: none!important
+}
+
 #termsInfo div[onclick*="showWindow(35)"]{
     color: var(--accent)!important
 }
