@@ -1,18 +1,6 @@
 /* made by Envy#9335 */
 
 @import url(https://envykrunk.github.io/removal/removal.css);
-:root {
-	--accent: #03fcf0;
-	--ammo-color: #fff;
-	--health-color: #03fcf0;
-	--premium-color: #fbc02d;
-	--verified-color: #40c4ff;
-	--menu-bg-color: rgba(15, 15, 15, .2);
-	--menu-bg-color-secondary: rgba(0, 0, 0, .5);
-	--ingame-bg-color: rgba(15, 15, 15, .2);
-	--text-transform: none;
-}
-
 * {
 	color: #fff;
 	text-shadow: none;
