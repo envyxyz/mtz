@@ -13,11 +13,6 @@
 	--text-transform: none;
 }
 
-@font-face {
-	font-family: 'gamefont';
-	src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofINeaB.woff2);
-}
-
 * {
 	color: #fff;
 	text-shadow: none;
