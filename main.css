@@ -59,13 +59,13 @@ a {
 	opacity: 0;
 }
 
-#uiBase.onMenu #chatHolder #chatInputHolder::before {
+#uiBase.onMenu #chatHolder #chatInputHolder::after {
 	content: 'css by Envy#9335';
 	position: absolute;
 	font-family: tahoma;
 	font-size: 20px;
 	left: 15px;
-	top: 25px;
+	bottom: 25px;
 	opacity: .5;
 	transition-duration: 120ms
 }
