@@ -34,8 +34,11 @@ a {
 /* chat */
 
 #chatHolder {
-	bottom: 20px!important;
-	left: 20px
+	bottom: 0!important
+}
+
+#uiBase.onMenu #chatHolder {
+	bottom: 250px!important
 }
 
 #chatSwitchHolder {
