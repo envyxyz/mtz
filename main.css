@@ -964,3 +964,31 @@ structions {
 #ammoVal {
 	color: var(--ammo-color)!important;
 }
+
+/* accent fix */
+
+input:checked+.slider{
+    background: var(--accent)
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 0 !important;
+	background-color: transparent !important;
+}
+
+::-webkit-scrollbar {
+	width: 4px !important;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 0 !important;
+	background: var(--accent) !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.menuItem:hover{
+    border-color: var(--accent)!important
+}
