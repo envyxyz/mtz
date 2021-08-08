@@ -257,11 +257,7 @@ a {
 #menuAccountUsername,
 #mailContainer {
 	transform: skew(-14deg, 0deg)
-}
-
-#mLevelCont {
-	display: none!important;
-}
+}[
 
 #signedInHeaderBar {
 	border-radius: 0!important;
@@ -947,7 +943,8 @@ structions {
 	border: hidden;
 }
 
-#onetrust-consent-sdk {
+#onetrust-consent-sdk,
+#mLevelCont{
 	visibility: hidden!important;
 	opacity: 0;
 	pointer-events: none;
