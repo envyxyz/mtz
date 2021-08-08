@@ -959,7 +959,8 @@ structions {
 
 /* accent fix */
 
-input:checked+.slider{
+input:checked+.slider,
+input:checked+.sliderSml{
     background: var(--accent)!important
 }
 
