@@ -13,6 +13,294 @@
 	--text-transform: none;
 }
 
+@font-face {
+	font-family: 'gamefont';
+	src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofINeaB.woff2);
+}
+
+* {
+	color: #fff;
+	text-shadow: none;
+}
+
+a {
+	color: var(--accent);
+}
+
+.grey {
+	color: var(--accent);
+}
+
+/* chat */
+
+#chatHolder {
+	bottom: 20px!important;
+	left: 20px
+}
+
+#chatSwitchHolder {
+	display: none!important
+}
+
+#chatInputHolder {
+	padding: 0!important;
+	width: max-content;
+	background-color: transparent
+}
+
+#chatInput::placeholder {
+	opacity: 0
+}
+
+#chatInputHolder:focus-within::before {
+	opacity: 0;
+}
+
+#chatInputHolder::before {
+	content: 'css by Envy#9335';
+	position: absolute;
+	font-family: tahoma;
+	font-size: 20px;
+	left: 15px;
+	top: 16px;
+	opacity: .5;
+	transition-duration: 120ms
+}
+
+#customizeButton {
+	height: 350px;
+	color: transparent!important;
+	background-color: transparent!Important;
+	box-shadow: none!important;
+	top: -7px;
+	left: 40px;
+	transform: none!Important;
+	opacity: 0
+}
+
+/* header */
+
+.progressBarInner,
+.xpBarB,
+.chalXPBarC {
+	height: 100%;
+	background-image: linear-gradient(to right, var(--accent), var(--accent), 94%, white);
+}
+
+.material-icons-outlined {
+	color: var(--accent)!important
+}
+
+#activateKDM,
+.accountButton,
+.loadoutBtn,
+.settingsBtn,
+.subPassChg,
+.lnkTw,
+.creatorCodeBtn,
+.redVouchBtn,
+#hostMenuBtn,
+.hostCBtn,
+.advancedToggle[style*=background-color],
+.updDisN,
+.searchBtn,
+.quickJoin,
+.rnkShpBtn,
+.hostPresetBtn,
+.hostToggle,
+#declineBtn,
+.punishButton,
+.compSwpTmB {
+	color: var(--menu-bg-color) !important;
+	background: var(--accent) !important;
+	transition-duration: 120ms !important;
+	border-radius: 4px;
+}
+
+#activateKDM {
+	box-shadow: inset 0 -7px 0 0 #000 !important;
+}
+
+.accountButton:hover,
+.loadoutBtn:hover,
+.settingsBtn:hover,
+.subPassChg:hover,
+.lnkTw:hover,
+.creatorCodeBtn:hover,
+.redVouchBtn:hover,
+#hostMenuBtn:hover,
+.hostCBtn:hover,
+.updDisN:hover,
+.searchBtn:hover,
+.quickJoin:hover,
+.rnkShpBtn:hover,
+.hostPresetBtn:hover,
+.hostToggle:hover,
+#declineBtn:hover,
+.punishButton:hover,
+.compSwpTmB:hover {
+	background-color: var(--menu-bg-color)!important;
+	color: var(--accent)!important;
+}
+
+#teamSelector {
+	bottom: 250px
+}
+
+
+/* teamscores */
+
+#teamScores {
+	position: fixed;
+	top: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 200px;
+	height: 50px;
+	padding: 10px;
+	padding-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	margin-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+.tScore {
+	display: inline-block;
+}
+
+#tScoreV1 {
+	position: fixed;
+	left: -55%;
+	top: 5px;
+	font-size: 30px;
+}
+
+#tScoreV2 {
+	position: fixed;
+	left: 55%;
+	top: 5px;
+	font-size: 30px;
+}
+
+.tScoreT {
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	z-index: 2;
+}
+
+.tScoreF.you {
+	background-color: #fff!important;
+	color: transparent;
+	z-index: 1;
+	clip-path: circle(50% at 50% 50%);
+	transform: scale(0.25);
+	position: relative;
+	top: -5px;
+}
+
+.tScoreC {
+	width: 100px;
+	height: 95px;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #ff2f38!important;
+	z-index: 1;
+	transform: scale(0.25);
+	clip-path: circle(50% at 50% 50%);
+	position: relative;
+	top: -5px;
+}
+
+.tScoreC.you {
+	background-color: #fff!important;
+	z-index: 1;
+	transform: scale(0.25);
+	clip-path: circle(50% at 50% 50%);
+	position: relative;
+	top: -5px;
+}
+
+#teamScores::before {
+	content: '';
+	background-color: var(--ingame-bg-color);
+	width: 300px;
+	height: 50px;
+	left: 50%;
+	top: 15px;
+	transform: translate(-50%);
+	position: fixed;
+	padding: 4px;
+}
+
+#gameMessage {
+	top: 100px;
+	text-transform: uppercase!important
+}
+
+.verticalSeparator {
+	transform: rotate(20deg);
+	width: 2px
+}
+
+#menuKRCount {
+	margin-top: 9px;
+	transform: skew(-14deg, 0deg)
+}
+
+#menuAccountUsername,
+#mailContainer {
+	transform: skew(-14deg, 0deg)
+}
+
+#mLevelCont {
+	display: none;
+}
+
+#signedInHeaderBar {
+	border-radius: 0!important;
+}
+
+.headerBarLeft {
+	width: 12%
+}
+
+select,
+input {
+	color: #000!important
+}
+
+.sliderVal {
+	color: var(--accent)!important
+}
+
+#curGameInfo div[style*="color"]{
+	display: none!important
+}
+
+/* health ammo*/
+
+#healthValue {
+	color: var(--health-color)!important;
+}
+
+#healthValue,
+#ammoVal {
+	color: var(--hp-size)!important;
+}
+
+#ammoVal {
+	color: var(--ammo-color)!important;
+}
+
 [style*="color:rgba(0,0,0,0.3)"] {
 	color: rgba(255, 255, 255, .5) !important;
 }
