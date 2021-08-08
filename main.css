@@ -47,7 +47,7 @@ a {
 
 #chatInputHolder {
 	padding: 0!important;
-	width: max-content;
+	width: 100%;
 	background-color: transparent
 }
 
