@@ -265,7 +265,7 @@ a {
 }
 
 #mLevelCont {
-	display: none;
+	display: none!important;
 }
 
 #signedInHeaderBar {
