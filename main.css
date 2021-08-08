@@ -960,7 +960,7 @@ structions {
 /* accent fix */
 
 input:checked+.slider{
-    background: var(--accent)
+    background: var(--accent)!important
 }
 
 ::-webkit-scrollbar-track {
