@@ -25,6 +25,10 @@
 	display: none !important;
 }
 
+.menuItemTitle{
+	display: none!Important;
+}
+
 #uiBase.onMenu #spectButton {
 	display: flex;
 	align-items: center;
