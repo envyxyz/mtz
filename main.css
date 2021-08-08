@@ -946,7 +946,8 @@ structions {
 
 #onetrust-consent-sdk,
 #mLevelCont,
-#termsInfo div:not([onclick*="showWindow(35)"]){
+#termsInfo div:not([onclick*="showWindow(35)"]),
+#mainLogo{
 	visibility: hidden!important;
 	opacity: 0;
 	pointer-events: none;
