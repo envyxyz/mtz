@@ -994,3 +994,11 @@ input:checked+.sliderSml{
 #termsInfo div[onclick*="showWindow(35)"]{
     color: var(--accent)!important
 }
+
+#ammoVal{
+	color: var(--ammo-color)
+}
+
+#healthValue{
+	color: var(--health-color)!important
+}
